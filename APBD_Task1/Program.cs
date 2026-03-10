@@ -13,6 +13,10 @@
                 Console.WriteLine("adedd " + i);
                 list.Add(i);
             }
+
+            var length = list.Count;
+
+            Console.WriteLine("Length of the list: " + length);
         }
     }
 }
