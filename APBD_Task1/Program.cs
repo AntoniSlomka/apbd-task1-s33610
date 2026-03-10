@@ -20,5 +20,13 @@
 
             Console.WriteLine("List: " + list.ToString());
         }
+
+        public static double Average(List<int> list)
+        {
+            var sum = 0.0;
+            foreach (int i in list) sum += i;
+            var avg = sum / list.Count;
+            return avg;
+        }
     }
 }
