@@ -17,6 +17,8 @@
             var length = list.Count;
 
             Console.WriteLine("Length of the list: " + length);
+
+            Console.WriteLine("List: " + list.ToString());
         }
     }
 }
