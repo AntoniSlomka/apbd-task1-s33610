@@ -41,7 +41,8 @@
 
         public static int CalculateMin(List<int> values)
         {
-
+            var min = values[0];
+            return min;
         }
     }
 }
