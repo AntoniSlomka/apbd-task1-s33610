@@ -21,18 +21,18 @@
             Console.WriteLine("List: " + list.ToString());
         }
 
-        public static double Average(List<int> list)
+        public static double Average(List<int> values)
         {
             var sum = 0.0;
-            foreach (int i in list) sum += i;
-            var avg = sum / list.Count;
+            foreach (int i in values) sum += i;
+            var avg = sum / values.Count;
             return avg;
         }
 
-        public static int CalculateMax(List<int> list)
+        public static int CalculateMax(List<int> values)
         {
-            var max = list[0];
-            foreach (int i in list)
+            var max = values[0];
+            foreach (int i in values)
             {
                 if (i > max) max = i;
             }
