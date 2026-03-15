@@ -42,6 +42,10 @@
         public static int CalculateMin(List<int> values)
         {
             var min = values[0];
+            foreach (int i in values)
+            {
+                if (i < min) min = i;
+            }
             return min;
         }
     }
