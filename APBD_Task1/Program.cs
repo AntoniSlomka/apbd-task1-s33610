@@ -38,5 +38,10 @@
             }
             return max;
         }
+
+        public static int CalculateMin(List<int> values)
+        {
+
+        }
     }
 }
