@@ -28,5 +28,15 @@
             var avg = sum / list.Count;
             return avg;
         }
+
+        public static int CalculateMax(List<int> list)
+        {
+            var max = list[0];
+            foreach (int i in list)
+            {
+                if (i > max) max = i;
+            }
+            return max;
+        }
     }
 }
