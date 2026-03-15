@@ -4,7 +4,7 @@
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello");
+            Console.WriteLine("Hello world");
 
             List<int> list = new List<int>();
 
